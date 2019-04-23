@@ -51,16 +51,3 @@ CREATE TABLE IF NOT EXISTS users_coversations (
     FOREIGN KEY(user_id) REFERENCES users(user_id),
     FOREIGN KEY(conversation_id) REFERENCES users(user_id)
 );
-
-
-
-
-
-
-
-
-
-
-
-
-
